@@ -1,13 +1,13 @@
 first_word= "Hi"
 second_word= "Jess"
 def crazy_strings(first_word, second_word)
-puts "Hello #{first_word.upcase.reverse} My name's #{second_word}!"
+puts "#{first_word.upcase.reverse} #{second_word}!"
 end
 crazy_strings(first_word, second_word)
 
 first_word= "Hi"
 second_word= "Jess"
 def crazy_strings(first_word, second_word)
-puts "Hello #{first_word.upcase} My name's #{second_word.gsub("s","z").swapcase}!"
+puts "#{first_word.upcase} #{second_word.gsub("s","z").swapcase}!"
 end
 crazy_strings(first_word, second_word)
